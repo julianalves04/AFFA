@@ -1,0 +1,135 @@
+﻿{
+    "temporadas":  [
+                       {
+                           "anio":  2025,
+                           "campeon_zona_a":  "CeedeeLambismo",
+                           "campeon_zona_b":  "CeedeeLambismo",
+                           "posiciones_finales":  {
+                                                      "zona_a":  [
+                                                                     {
+                                                                         "pos":  1,
+                                                                         "display_name":  "Chaseneta",
+                                                                         "team_name":  "James cookold"
+                                                                     },
+                                                                     {
+                                                                         "pos":  2,
+                                                                         "display_name":  "CeedeeLambismo",
+                                                                         "team_name":  "David Njocuck"
+                                                                     },
+                                                                     {
+                                                                         "pos":  3,
+                                                                         "display_name":  "gonzabengals",
+                                                                         "team_name":  "gonzabengals\u0027s Team"
+                                                                     },
+                                                                     {
+                                                                         "pos":  4,
+                                                                         "display_name":  "agusrocha986",
+                                                                         "team_name":  "Equipo Dinamita "
+                                                                     },
+                                                                     {
+                                                                         "pos":  5,
+                                                                         "display_name":  "JoacooAlb",
+                                                                         "team_name":  "El Faraón St. Brown"
+                                                                     },
+                                                                     {
+                                                                         "pos":  6,
+                                                                         "display_name":  "Juanchimiranda",
+                                                                         "team_name":  "Juanchimiranda\u0027s Team"
+                                                                     },
+                                                                     {
+                                                                         "pos":  7,
+                                                                         "display_name":  "JetsStress",
+                                                                         "team_name":  "JetsStress\u0027s Team"
+                                                                     },
+                                                                     {
+                                                                         "pos":  8,
+                                                                         "display_name":  "JuliStroud",
+                                                                         "team_name":  "Te voy a Lamar las tetas"
+                                                                     },
+                                                                     {
+                                                                         "pos":  9,
+                                                                         "display_name":  "Alessio6ers",
+                                                                         "team_name":  "Mamarion Hampton"
+                                                                     },
+                                                                     {
+                                                                         "pos":  10,
+                                                                         "display_name":  "Fedeschuin94",
+                                                                         "team_name":  "Philly Buldogs"
+                                                                     },
+                                                                     {
+                                                                         "pos":  11,
+                                                                         "display_name":  "masonmahomes",
+                                                                         "team_name":  "Mahombee y Asociados"
+                                                                     },
+                                                                     {
+                                                                         "pos":  12,
+                                                                         "display_name":  "MarplaEagle",
+                                                                         "team_name":  "MarplaEagle\u0027s Team"
+                                                                     }
+                                                                 ],
+                                                      "zona_b":  [
+                                                                     {
+                                                                         "pos":  1,
+                                                                         "display_name":  "Chaseneta",
+                                                                         "team_name":  "James cookold"
+                                                                     },
+                                                                     {
+                                                                         "pos":  2,
+                                                                         "display_name":  "CeedeeLambismo",
+                                                                         "team_name":  "David Njocuck"
+                                                                     },
+                                                                     {
+                                                                         "pos":  3,
+                                                                         "display_name":  "gonzabengals",
+                                                                         "team_name":  "gonzabengals\u0027s Team"
+                                                                     },
+                                                                     {
+                                                                         "pos":  4,
+                                                                         "display_name":  "agusrocha986",
+                                                                         "team_name":  "Equipo Dinamita "
+                                                                     },
+                                                                     {
+                                                                         "pos":  5,
+                                                                         "display_name":  "JoacooAlb",
+                                                                         "team_name":  "El Faraón St. Brown"
+                                                                     },
+                                                                     {
+                                                                         "pos":  6,
+                                                                         "display_name":  "Juanchimiranda",
+                                                                         "team_name":  "Juanchimiranda\u0027s Team"
+                                                                     },
+                                                                     {
+                                                                         "pos":  7,
+                                                                         "display_name":  "JetsStress",
+                                                                         "team_name":  "JetsStress\u0027s Team"
+                                                                     },
+                                                                     {
+                                                                         "pos":  8,
+                                                                         "display_name":  "JuliStroud",
+                                                                         "team_name":  "Te voy a Lamar las tetas"
+                                                                     },
+                                                                     {
+                                                                         "pos":  9,
+                                                                         "display_name":  "Alessio6ers",
+                                                                         "team_name":  "Mamarion Hampton"
+                                                                     },
+                                                                     {
+                                                                         "pos":  10,
+                                                                         "display_name":  "Fedeschuin94",
+                                                                         "team_name":  "Philly Buldogs"
+                                                                     },
+                                                                     {
+                                                                         "pos":  11,
+                                                                         "display_name":  "masonmahomes",
+                                                                         "team_name":  "Mahombee y Asociados"
+                                                                     },
+                                                                     {
+                                                                         "pos":  12,
+                                                                         "display_name":  "MarplaEagle",
+                                                                         "team_name":  "MarplaEagle\u0027s Team"
+                                                                     }
+                                                                 ]
+                                                  }
+                       }
+                   ]
+}

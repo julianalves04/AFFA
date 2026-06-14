@@ -1,0 +1,163 @@
+﻿{
+    "week":  3,
+    "matchups_zona_a":  [
+                            {
+                                "matchup_id":  6,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "CeedeeLambismo",
+                                               "points":  136.46
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "agusrocha986",
+                                               "points":  76.72
+                                           }
+                            },
+                            {
+                                "matchup_id":  5,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "Fedeschuin94",
+                                               "points":  142.54
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "JetsStress",
+                                               "points":  114.22
+                                           }
+                            },
+                            {
+                                "matchup_id":  4,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "JoacooAlb",
+                                               "points":  143.62
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "MarplaEagle",
+                                               "points":  131.62
+                                           }
+                            },
+                            {
+                                "matchup_id":  3,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "Juanchimiranda",
+                                               "points":  148.18
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "Chaseneta",
+                                               "points":  110.34
+                                           }
+                            },
+                            {
+                                "matchup_id":  2,
+                                "team_1":  {
+                                               "is_winner":  false,
+                                               "display_name":  "JuliStroud",
+                                               "points":  96.82
+                                           },
+                                "team_2":  {
+                                               "is_winner":  true,
+                                               "display_name":  "masonmahomes",
+                                               "points":  106.16
+                                           }
+                            },
+                            {
+                                "matchup_id":  1,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "gonzabengals",
+                                               "points":  168.46
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "Alessio6ers",
+                                               "points":  148.02
+                                           }
+                            }
+                        ],
+    "matchups_zona_b":  [
+                            {
+                                "matchup_id":  6,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "CeedeeLambismo",
+                                               "points":  136.46
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "agusrocha986",
+                                               "points":  76.72
+                                           }
+                            },
+                            {
+                                "matchup_id":  5,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "Fedeschuin94",
+                                               "points":  142.54
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "JetsStress",
+                                               "points":  114.22
+                                           }
+                            },
+                            {
+                                "matchup_id":  4,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "JoacooAlb",
+                                               "points":  143.62
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "MarplaEagle",
+                                               "points":  131.62
+                                           }
+                            },
+                            {
+                                "matchup_id":  3,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "Juanchimiranda",
+                                               "points":  148.18
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "Chaseneta",
+                                               "points":  110.34
+                                           }
+                            },
+                            {
+                                "matchup_id":  2,
+                                "team_1":  {
+                                               "is_winner":  false,
+                                               "display_name":  "JuliStroud",
+                                               "points":  96.82
+                                           },
+                                "team_2":  {
+                                               "is_winner":  true,
+                                               "display_name":  "masonmahomes",
+                                               "points":  106.16
+                                           }
+                            },
+                            {
+                                "matchup_id":  1,
+                                "team_1":  {
+                                               "is_winner":  true,
+                                               "display_name":  "gonzabengals",
+                                               "points":  168.46
+                                           },
+                                "team_2":  {
+                                               "is_winner":  false,
+                                               "display_name":  "Alessio6ers",
+                                               "points":  148.02
+                                           }
+                            }
+                        ]
+}

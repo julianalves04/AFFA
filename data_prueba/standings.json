@@ -1,0 +1,353 @@
+﻿{
+    "last_updated":  "2026-06-14T18:50:46-03:00",
+    "zona_a":  [
+                   {
+                       "pos":  1,
+                       "roster_id":  12,
+                       "display_name":  "Chaseneta",
+                       "team_name":  "James cookold",
+                       "wins":  11,
+                       "losses":  3,
+                       "ties":  0,
+                       "points_for":  1880.58,
+                       "points_against":  1758.2
+                   },
+                   {
+                       "pos":  2,
+                       "roster_id":  2,
+                       "display_name":  "CeedeeLambismo",
+                       "team_name":  "David Njocuck",
+                       "wins":  10,
+                       "losses":  4,
+                       "ties":  0,
+                       "points_for":  2014.1,
+                       "points_against":  1752.96
+                   },
+                   {
+                       "pos":  3,
+                       "roster_id":  3,
+                       "display_name":  "gonzabengals",
+                       "team_name":  "gonzabengals\u0027s Team",
+                       "wins":  10,
+                       "losses":  4,
+                       "ties":  0,
+                       "points_for":  1926.26,
+                       "points_against":  1839.72
+                   },
+                   {
+                       "pos":  4,
+                       "roster_id":  5,
+                       "display_name":  "agusrocha986",
+                       "team_name":  "Equipo Dinamita ",
+                       "wins":  9,
+                       "losses":  5,
+                       "ties":  0,
+                       "points_for":  1624.4,
+                       "points_against":  1587.3
+                   },
+                   {
+                       "pos":  5,
+                       "roster_id":  6,
+                       "display_name":  "JoacooAlb",
+                       "team_name":  "El Faraón St. Brown",
+                       "wins":  7,
+                       "losses":  7,
+                       "ties":  0,
+                       "points_for":  1943.22,
+                       "points_against":  1936.9
+                   },
+                   {
+                       "pos":  6,
+                       "roster_id":  4,
+                       "display_name":  "Juanchimiranda",
+                       "team_name":  "Juanchimiranda\u0027s Team",
+                       "wins":  7,
+                       "losses":  7,
+                       "ties":  0,
+                       "points_for":  1743.64,
+                       "points_against":  1692.88
+                   },
+                   {
+                       "pos":  7,
+                       "roster_id":  7,
+                       "display_name":  "JetsStress",
+                       "team_name":  "JetsStress\u0027s Team",
+                       "wins":  7,
+                       "losses":  7,
+                       "ties":  0,
+                       "points_for":  1699.32,
+                       "points_against":  1705.32
+                   },
+                   {
+                       "pos":  8,
+                       "roster_id":  9,
+                       "display_name":  "JuliStroud",
+                       "team_name":  "Te voy a Lamar las tetas",
+                       "wins":  6,
+                       "losses":  8,
+                       "ties":  0,
+                       "points_for":  1786.82,
+                       "points_against":  1692
+                   },
+                   {
+                       "pos":  9,
+                       "roster_id":  8,
+                       "display_name":  "Alessio6ers",
+                       "team_name":  "Mamarion Hampton",
+                       "wins":  6,
+                       "losses":  8,
+                       "ties":  0,
+                       "points_for":  1768.84,
+                       "points_against":  1798.22
+                   },
+                   {
+                       "pos":  10,
+                       "roster_id":  1,
+                       "display_name":  "Fedeschuin94",
+                       "team_name":  "Philly Buldogs",
+                       "wins":  4,
+                       "losses":  10,
+                       "ties":  0,
+                       "points_for":  1555.86,
+                       "points_against":  1642.68
+                   },
+                   {
+                       "pos":  11,
+                       "roster_id":  11,
+                       "display_name":  "masonmahomes",
+                       "team_name":  "Mahombee y Asociados",
+                       "wins":  4,
+                       "losses":  10,
+                       "ties":  0,
+                       "points_for":  1310.44,
+                       "points_against":  1674.54
+                   },
+                   {
+                       "pos":  12,
+                       "roster_id":  10,
+                       "display_name":  "MarplaEagle",
+                       "team_name":  "MarplaEagle\u0027s Team",
+                       "wins":  3,
+                       "losses":  11,
+                       "ties":  0,
+                       "points_for":  1665.82,
+                       "points_against":  1838.58
+                   }
+               ],
+    "zona_b":  [
+                   {
+                       "pos":  1,
+                       "roster_id":  12,
+                       "display_name":  "Chaseneta",
+                       "team_name":  "James cookold",
+                       "wins":  11,
+                       "losses":  3,
+                       "ties":  0,
+                       "points_for":  1880.58,
+                       "points_against":  1758.2
+                   },
+                   {
+                       "pos":  2,
+                       "roster_id":  2,
+                       "display_name":  "CeedeeLambismo",
+                       "team_name":  "David Njocuck",
+                       "wins":  10,
+                       "losses":  4,
+                       "ties":  0,
+                       "points_for":  2014.1,
+                       "points_against":  1752.96
+                   },
+                   {
+                       "pos":  3,
+                       "roster_id":  3,
+                       "display_name":  "gonzabengals",
+                       "team_name":  "gonzabengals\u0027s Team",
+                       "wins":  10,
+                       "losses":  4,
+                       "ties":  0,
+                       "points_for":  1926.26,
+                       "points_against":  1839.72
+                   },
+                   {
+                       "pos":  4,
+                       "roster_id":  5,
+                       "display_name":  "agusrocha986",
+                       "team_name":  "Equipo Dinamita ",
+                       "wins":  9,
+                       "losses":  5,
+                       "ties":  0,
+                       "points_for":  1624.4,
+                       "points_against":  1587.3
+                   },
+                   {
+                       "pos":  5,
+                       "roster_id":  6,
+                       "display_name":  "JoacooAlb",
+                       "team_name":  "El Faraón St. Brown",
+                       "wins":  7,
+                       "losses":  7,
+                       "ties":  0,
+                       "points_for":  1943.22,
+                       "points_against":  1936.9
+                   },
+                   {
+                       "pos":  6,
+                       "roster_id":  4,
+                       "display_name":  "Juanchimiranda",
+                       "team_name":  "Juanchimiranda\u0027s Team",
+                       "wins":  7,
+                       "losses":  7,
+                       "ties":  0,
+                       "points_for":  1743.64,
+                       "points_against":  1692.88
+                   },
+                   {
+                       "pos":  7,
+                       "roster_id":  7,
+                       "display_name":  "JetsStress",
+                       "team_name":  "JetsStress\u0027s Team",
+                       "wins":  7,
+                       "losses":  7,
+                       "ties":  0,
+                       "points_for":  1699.32,
+                       "points_against":  1705.32
+                   },
+                   {
+                       "pos":  8,
+                       "roster_id":  9,
+                       "display_name":  "JuliStroud",
+                       "team_name":  "Te voy a Lamar las tetas",
+                       "wins":  6,
+                       "losses":  8,
+                       "ties":  0,
+                       "points_for":  1786.82,
+                       "points_against":  1692
+                   },
+                   {
+                       "pos":  9,
+                       "roster_id":  8,
+                       "display_name":  "Alessio6ers",
+                       "team_name":  "Mamarion Hampton",
+                       "wins":  6,
+                       "losses":  8,
+                       "ties":  0,
+                       "points_for":  1768.84,
+                       "points_against":  1798.22
+                   },
+                   {
+                       "pos":  10,
+                       "roster_id":  1,
+                       "display_name":  "Fedeschuin94",
+                       "team_name":  "Philly Buldogs",
+                       "wins":  4,
+                       "losses":  10,
+                       "ties":  0,
+                       "points_for":  1555.86,
+                       "points_against":  1642.68
+                   },
+                   {
+                       "pos":  11,
+                       "roster_id":  11,
+                       "display_name":  "masonmahomes",
+                       "team_name":  "Mahombee y Asociados",
+                       "wins":  4,
+                       "losses":  10,
+                       "ties":  0,
+                       "points_for":  1310.44,
+                       "points_against":  1674.54
+                   },
+                   {
+                       "pos":  12,
+                       "roster_id":  10,
+                       "display_name":  "MarplaEagle",
+                       "team_name":  "MarplaEagle\u0027s Team",
+                       "wins":  3,
+                       "losses":  11,
+                       "ties":  0,
+                       "points_for":  1665.82,
+                       "points_against":  1838.58
+                   }
+               ],
+    "playoffs_proyectados":  {
+                                 "zona_a":  {
+                                                "semis_directas":  [
+                                                                       {
+                                                                           "seed":  1,
+                                                                           "display_name":  "Chaseneta",
+                                                                           "team_name":  "James cookold",
+                                                                           "roster_id":  12
+                                                                       },
+                                                                       {
+                                                                           "seed":  2,
+                                                                           "display_name":  "CeedeeLambismo",
+                                                                           "team_name":  "David Njocuck",
+                                                                           "roster_id":  2
+                                                                       }
+                                                                   ],
+                                                "cuartos":  [
+                                                                {
+                                                                    "match_id":  "A",
+                                                                    "team_1":  "gonzabengals",
+                                                                    "team_name_1":  "gonzabengals\u0027s Team",
+                                                                    "roster_id_1":  3,
+                                                                    "seed_1":  3,
+                                                                    "team_2":  "Juanchimiranda",
+                                                                    "team_name_2":  "Juanchimiranda\u0027s Team",
+                                                                    "roster_id_2":  4,
+                                                                    "seed_2":  6
+                                                                },
+                                                                {
+                                                                    "match_id":  "B",
+                                                                    "team_1":  "agusrocha986",
+                                                                    "team_name_1":  "Equipo Dinamita ",
+                                                                    "roster_id_1":  5,
+                                                                    "seed_1":  4,
+                                                                    "team_2":  "JoacooAlb",
+                                                                    "team_name_2":  "El Faraón St. Brown",
+                                                                    "roster_id_2":  6,
+                                                                    "seed_2":  5
+                                                                }
+                                                            ]
+                                            },
+                                 "zona_b":  {
+                                                "semis_directas":  [
+                                                                       {
+                                                                           "seed":  1,
+                                                                           "display_name":  "Chaseneta",
+                                                                           "team_name":  "James cookold",
+                                                                           "roster_id":  12
+                                                                       },
+                                                                       {
+                                                                           "seed":  2,
+                                                                           "display_name":  "CeedeeLambismo",
+                                                                           "team_name":  "David Njocuck",
+                                                                           "roster_id":  2
+                                                                       }
+                                                                   ],
+                                                "cuartos":  [
+                                                                {
+                                                                    "match_id":  "A",
+                                                                    "team_1":  "gonzabengals",
+                                                                    "team_name_1":  "gonzabengals\u0027s Team",
+                                                                    "roster_id_1":  3,
+                                                                    "seed_1":  3,
+                                                                    "team_2":  "Juanchimiranda",
+                                                                    "team_name_2":  "Juanchimiranda\u0027s Team",
+                                                                    "roster_id_2":  4,
+                                                                    "seed_2":  6
+                                                                },
+                                                                {
+                                                                    "match_id":  "B",
+                                                                    "team_1":  "agusrocha986",
+                                                                    "team_name_1":  "Equipo Dinamita ",
+                                                                    "roster_id_1":  5,
+                                                                    "seed_1":  4,
+                                                                    "team_2":  "JoacooAlb",
+                                                                    "team_name_2":  "El Faraón St. Brown",
+                                                                    "roster_id_2":  6,
+                                                                    "seed_2":  5
+                                                                }
+                                                            ]
+                                            }
+                             }
+}

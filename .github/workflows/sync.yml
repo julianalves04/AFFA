@@ -1,0 +1,35 @@
+name: AFFA League Sync & Report
+
+on:
+  schedule:
+    # Corre todos los martes a las 13:00 UTC (10:00 AM Hora Argentina), 
+    # momento ideal tras finalizar todos los partidos de la semana (Monday Night Football).
+    - cron: '0 13 * * 2'
+  workflow_dispatch: # Permite ejecutar el sync manualmente desde la interfaz de GitHub Actions
+
+permissions:
+  contents: write # Requerido para poder hacer el commit/push de vuelta al repositorio
+
+jobs:
+  sync_and_report:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Sincronizar Ligas Sleeper
+        run: |
+          powershell -ExecutionPolicy Bypass -File .\sync_leagues.ps1
+
+      - name: Generar Reporte Semanal Local
+        run: |
+          powershell -ExecutionPolicy Bypass -File .\generate_report.ps1 -Week 0
+
+      - name: Commitear y Subir Cambios en JSON
+        run: |
+          git config --global user.name "AFFA Bot"
+          git config --global user.email "bot@affa.com.ar"
+          git add data_prueba/
+          # Comprobar si hay cambios para evitar fallos si no hay novedades
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-sync: Actualizacion semanal de ligas" && git push)

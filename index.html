@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFFA Dashboard - Asociación de Fantasy Football Argentina</title>
+    <meta name="description" content="Dashboard de consulta para la Asociación de Fantasy Football Argentina (AFFA). Consulta posiciones de ligas Sleeper, proyecciones de ascensos y descensos, e historial semanal.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header / Brand -->
+        <header>
+            <div class="brand">
+                <img src="images/affa_logo.png" alt="AFFA Logo" class="brand-logo" id="brand-logo" onerror="this.style.display='none'">
+                <div class="brand-info">
+                    <h1>AFFA</h1>
+                    <p>Asociación de Fantasy Football Argentina</p>
+                </div>
+            </div>
+            
+            <div class="sync-status">
+                <span class="sync-dot" id="sync-dot"></span>
+                <span id="sync-text">Cargando base de datos local...</span>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="tabs-nav">
+            <button class="tab-btn active" data-tab="tab-standings">
+                📊 Posiciones de Ligas
+            </button>
+            <button class="tab-btn" data-tab="tab-matchups">
+                🏈 Resultados Semanales
+            </button>
+            <button class="tab-btn" data-tab="tab-projections">
+                🏆 Playoffs Proyectados
+            </button>
+            <button class="tab-btn" data-tab="tab-champions">
+                👑 Historial de Campeones
+            </button>
+        </nav>
+
+        <!-- TAB: Standings -->
+        <main class="tab-content active" id="tab-standings">
+            <div class="grid-2">
+                <!-- Zona A Card -->
+                <div class="card card-accent" id="card-zona-a">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <span>🔵</span>
+                            <span id="name-zona-a">Zona A</span>
+                        </div>
+                        <div class="badge badge-info" id="count-zona-a">12 Equipos</div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Pos</th>
+                                    <th>Equipo / Manager</th>
+                                    <th style="text-align: center;">Récord</th>
+                                    <th style="text-align: right;">Pts Favor</th>
+                                    <th style="text-align: right;">Pts Contra</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-zona-a">
+                                <tr>
+                                    <td colspan="5" style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+                                        Cargando posiciones...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Zona B Card -->
+                <div class="card card-accent" id="card-zona-b">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <span>⚪</span>
+                            <span id="name-zona-b">Zona B</span>
+                        </div>
+                        <div class="badge badge-info" id="count-zona-b">12 Equipos</div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Pos</th>
+                                    <th>Equipo / Manager</th>
+                                    <th style="text-align: center;">Récord</th>
+                                    <th style="text-align: right;">Pts Favor</th>
+                                    <th style="text-align: right;">Pts Contra</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-zona-b">
+                                <tr>
+                                    <td colspan="5" style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+                                        Cargando posiciones...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- TAB: Matchups -->
+        <section class="tab-content" id="tab-matchups">
+            <div class="card" style="margin-bottom: 2rem;">
+                <div class="week-selector-container">
+                    <label for="week-select" style="font-weight: 600; font-size: 1.1rem;">Seleccionar Semana:</label>
+                    <select id="week-select" class="form-input" style="width: auto; display: inline-block; margin-left: 1rem;">
+                        <!-- Semanas 1 a 14 -->
+                        <option value="1">Semana 1</option>
+                        <option value="2">Semana 2</option>
+                        <option value="3">Semana 3</option>
+                        <option value="4">Semana 4</option>
+                        <option value="5">Semana 5</option>
+                        <option value="6">Semana 6</option>
+                        <option value="7">Semana 7</option>
+                        <option value="8">Semana 8</option>
+                        <option value="9">Semana 9</option>
+                        <option value="10">Semana 10</option>
+                        <option value="11">Semana 11</option>
+                        <option value="12">Semana 12</option>
+                        <option value="13">Semana 13</option>
+                        <option value="14" selected>Semana 14</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <!-- Matchups Zona A -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🎮 Enfrentamientos - Zona A</div>
+                    </div>
+                    <div class="matchups-list" id="matchups-zona-a">
+                        <!-- Generated Dynamically -->
+                    </div>
+                </div>
+
+                <!-- Matchups Zona B -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🎮 Enfrentamientos - Zona B</div>
+                    </div>
+                    <div class="matchups-list" id="matchups-zona-b">
+                        <!-- Generated Dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB: Projections (Playoffs Proyectados) -->
+        <section class="tab-content" id="tab-projections">
+            <div class="alert alert-info" style="margin-bottom: 2rem;">
+                <span class="alert-icon">🏈</span>
+                <div>
+                    <strong>Proyección de Cuadro de Playoffs:</strong> Los mejores 6 equipos de la temporada regular clasifican a los Playoffs (Semanas 15 a 17). Los clasificados 1 y 2 tienen pase libre directo a Semifinales.
+                </div>
+            </div>
+            
+            <div class="bracket-selection" style="margin-bottom: 2rem; display: flex; justify-content: center; gap: 1rem;">
+                <button class="tab-btn active" id="btn-bracket-a" style="border: 1px solid var(--border-card);">Zona A - Playoffs</button>
+                <button class="tab-btn" id="btn-bracket-b" style="border: 1px solid var(--border-card);">Zona B - Playoffs</button>
+            </div>
+            
+            <div class="bracket-wrapper">
+                <!-- Zona A Bracket -->
+                <div class="bracket-container" id="bracket-a">
+                    <!-- Quarterfinals -->
+                    <div class="bracket-round">
+                        <div class="round-title">Cuartos Zona A (Semana 15)</div>
+                        <div class="bracket-match-card" id="qf1-a">
+                            <!-- Match A: Seed 3 vs Seed 6 -->
+                        </div>
+                        <div class="bracket-match-card" id="qf2-a">
+                            <!-- Match B: Seed 4 vs Seed 5 -->
+                        </div>
+                    </div>
+                    <!-- Semifinals -->
+                    <div class="bracket-round">
+                        <div class="round-title">Semis Zona A (Semana 16)</div>
+                        <div class="bracket-match-card" id="sf1-a">
+                            <!-- Seed 1 vs Winner QF2 -->
+                        </div>
+                        <div class="bracket-match-card" id="sf2-a">
+                            <!-- Seed 2 vs Winner QF1 -->
+                        </div>
+                    </div>
+                    <!-- Finals -->
+                    <div class="bracket-round">
+                        <div class="round-title">Final Zona A (Semana 17)</div>
+                        <div class="bracket-match-card" id="final-a">
+                            <!-- Winner SF1 vs Winner SF2 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Zona B Bracket (oculto por defecto) -->
+                <div class="bracket-container" id="bracket-b" style="display: none;">
+                    <!-- Quarterfinals -->
+                    <div class="bracket-round">
+                        <div class="round-title">Cuartos Zona B (Semana 15)</div>
+                        <div class="bracket-match-card" id="qf1-b">
+                            <!-- Match A: Seed 3 vs Seed 6 -->
+                        </div>
+                        <div class="bracket-match-card" id="qf2-b">
+                            <!-- Match B: Seed 4 vs Seed 5 -->
+                        </div>
+                    </div>
+                    <!-- Semifinals -->
+                    <div class="bracket-round">
+                        <div class="round-title">Semis Zona B (Semana 16)</div>
+                        <div class="bracket-match-card" id="sf1-b">
+                            <!-- Seed 1 vs Winner QF2 -->
+                        </div>
+                        <div class="bracket-match-card" id="sf2-b">
+                            <!-- Seed 2 vs Winner QF1 -->
+                        </div>
+                    </div>
+                    <!-- Finals -->
+                    <div class="bracket-round">
+                        <div class="round-title">Final Zona B (Semana 17)</div>
+                        <div class="bracket-match-card" id="final-b">
+                            <!-- Winner SF1 vs Winner SF2 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB: Champions -->
+        <section class="tab-content" id="tab-champions">
+            <div class="card" style="max-width: 800px; margin: 0 auto;">
+                <div class="card-header">
+                    <div class="card-title">👑 Historial de Campeones Anuales</div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 120px;">Temporada</th>
+                                <th>Campeón Zona A</th>
+                                <th>Campeón Zona B</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody-champions">
+                            <!-- Generated Dynamically -->
+                            <tr>
+                                <td colspan="3" style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+                                    Cargando historial de campeonatos...
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
